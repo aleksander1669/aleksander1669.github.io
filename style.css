@@ -1,0 +1,95 @@
+@font-face{
+    src: url(assets/font.ttf);
+    font-family: font;
+}
+.logo {
+    font-family: font;
+    font-size: 4em;
+    color: black;
+    text-align: center;
+    text-shadow: 3px 3px 5px;
+}
+.logo_img {
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10p;
+}
+.logo_bottom {
+    font-family: font;
+    font-size: 3em;
+    color: black;
+    text-align: center;
+    text-shadow: 3px 3px 5px;
+}
+header {
+    background-color: chocolate;
+}
+body {
+    background-color: black;
+}
+.link {
+    color: black;
+    font-size: 1.25em;
+    text-align: center;
+    display: block;
+}
+footer {
+    background-color: chocolate;
+}
+.product {
+    background-color: rgb(99, 99, 99);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px black;
+    border-radius: 20px;
+    transition: background-color 0.25s;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.product:hover {
+    background-color: chocolate;
+}
+.product_title {
+    text-align: center;
+    color: black;
+}
+.product_img {
+    margin-left: 20px;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px black;
+}
+.product_img:hover {
+    transform: scale(1.05);
+}
+.product_description {
+    margin-left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product_left {
+    text-align: center;
+    float: left;
+}
+.price {
+    margin-top: 270px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button {
+    background-color: black;
+    color: chocolate;
+    transition: background-color 0.25s;
+    border-radius: 10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: chocolate;
+    color: black;
+}
+.copyright {
+    font-size: 0.7em;
+    margin-left: 10px;
+    font-family: font;
+}
+
