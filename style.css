@@ -1,0 +1,213 @@
+
+/*           Main page/Main assets             */
+
+@font-face{
+    src: url(assets/font.ttf);
+    font-family: font;
+}
+.logo {
+    font-family: font;
+    font-size: 4em;
+    color: black;
+    text-align: center;
+    text-shadow: 3px 3px 5px;
+}
+.logo_img {
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10p;
+}
+.logo_bottom {
+    font-family: font;
+    font-size: 3em;
+    color: black;
+    text-align: center;
+    text-shadow: 3px 3px 5px;
+}
+header {
+    background-color: chocolate;
+}
+body {
+    background-color: black;
+}
+.link {
+    color: black;
+    font-size: 1.25em;
+    text-align: center;
+    display: block;
+}
+footer {
+    background-color: chocolate;
+}
+.product {
+    background-color: rgb(99, 99, 99);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    transition: background-color 0.25s;
+    overflow: hidden;
+    padding: 30px;
+    margin: 40px auto;
+}
+.product:hover {
+    background-color: chocolate;
+}
+.product_title {
+    text-align: center;
+    color: black;
+}
+.product_img {
+    margin-left: 20px;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px black;
+    width: 250px;
+}
+.product_img:hover {
+    transform: scale(1.05);
+}
+.product p {
+    margin-left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product ul {
+    margin-left: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product_left {
+    text-align: center;
+    float: left;
+}
+.price {
+    margin-top: 270px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button {
+    background-color: black;
+    color: chocolate;
+    transition: background-color 0.25s;
+    border-radius: 10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: chocolate;
+    color: black;
+}
+.copyright {
+    font-size: 0.7em;
+    margin-left: 10px;
+    font-family: font;
+}
+
+
+/*         Product page            */
+
+
+.product_page {
+    background-color: chocolate;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    width: 70%;
+    margin: 40px auto;
+    padding: 60px 40px;
+}
+.product_page_title {
+    text-align: center;
+    padding: 30px;
+}
+.product_page_image_box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+.product_page_image{
+    width: 250px;
+    box-shadow: 0px 0px 20px;
+    border-radius: 10px;
+}
+.product_page_label {
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 150px;
+}
+.product_page_box {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.product_page p {
+    margin-top: 50px;
+    padding-top: 20px;
+}
+.product_page_display{
+    display: block;
+    max-width: 85%;
+    margin: 60px auto;
+    box-shadow: 0px 0px 10px;
+    border-radius: 10px;
+}
+.product_page h2 {
+    text-align: center;
+    font-family: font;
+    font-size: 3em;
+    border-top: 10px solid black;
+    padding-top: 50px;
+}
+.product_page button {
+    color: chocolate;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 40px;
+    display: block;
+    margin: 60px 60px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.product_page button:hover {
+    background-color: chocolate;
+    color: black;
+}
+.product_page a {
+    text-decoration: none;
+}
+
+
+/*        About us page          */
+
+.about_us_page {
+    background-color: chocolate;
+    color: black;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 60px 40px;
+    line-height: 4;
+}
+.about_us_page h1 {
+    color: black;
+    font-size: 4em;
+    font-family: font;
+    text-align: center;
+}
+.about_us_page h2 {
+    color: black;
+    font-size: 2em;
+    font-family: font;
+    text-align: center;
+}
+.about_us_page p {
+    color: black;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+}
+
