@@ -14,6 +14,9 @@
         <img class="logo_img" alt="logo" for="logo" src="assets/icon_shop.png" width="100">
         </a>
         <h1 class="logo">Alibaba, Cheap Easy and Quick...</h1>
+        <a href="koszyk.html" style="float: right; margin-right: 40px; font-size: 2em; color: black; text-decoration: none;">
+        🛒 Koszyk (<span id="cart-count">0</span>)
+        </a>
         <br>
     </header>
 
@@ -25,48 +28,19 @@
         <img alt="product image" src="assets/beemwe/BUMPER_2.png" class="product_page_image">
         <img alt="product image" src="assets/beemwe/BUMPER_3.png" class="product_page_image">
         </div>
-
-        <h2>Dane Dostawy:</h2>
-
         <div class="product_page_box_label_and_grafika">
         <div class="product_page_label_box">
         <div class="product_page_label">
-        <label for="Quantity">Ilość:</label>
-        <input type="text" id="quantity" required placeholder="1-100">
-        </div>
-
-        <div class="product_page_label">
-        <label for="E-mail">E-mail:</label>
-        <input type="text" id="email" required placeholder="przykład@gmail.com">
-        </div>
-
-        <div class="product_page_label">
-        <label for="Phone">Telefon:</label>
-        <input type="text" id="phone" required placeholder="000-000-000">
-        </div>
-
-        <div class="product_page_label">
-        <label for="Adress">Adres:</label>
-        <input type="text" id="adress" required placeholder="Ulica 12/345">
-        </div>
-
-        <div class="product_page_label">
-        <label for="Kod pocztowy">Kod pocztowy:</label>
-        <input type="text" id="postcode" required placeholder="12-345">
-        </div>
-
-        <div class="product_page_label">
-        <label for="Kod pocztowy">Twoje uwagi:</label>
-        <textarea rows="4" type="text" id="postcode" required placeholder="Co mamy uwzględnić?"></textarea>
-        </div>
-
-        <button onclick="window.location.href='ejjjj'">Zamawiam</button>
+            <a href="koszyk.html"> <button onclick="addToCart('001', 'BMW M5 Front Bumper Kit', 400.00)">Zamawiam</button>
+            </a>
         </div>
 
         <div class="product_page_grafika">
             <img src="assets/D_LOGO.png" alt="box" class="grafika">
         </div>
         </div>
+
+
 
         <h2>Opis Produktu:</h2>
 <p>
@@ -120,6 +94,6 @@ Specyfikacja produktu:
     <p>Nasi prawnicy znajdą Cię, jeśli skopiujesz ten design. A tak na poważnie: to tylko projekt treningowy. Nie podawaj tu numeru karty, bo całą kasę wydam na nowe felgi.</p>
     </div><br>
     </footer>
-    
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twój Koszyk - Alibaba</title>
+    <link rel="icon" href="assets/icon_shop.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <br>
+        <a href="index.html">
+        <img class="logo_img" alt="logo" src="assets/icon_shop.png" width="100">
+        </a>
+        <h1 class="logo">Alibaba, Cheap Easy and Quick...</h1>
+        <br>
+    </header>
+
+    <section class="cart_page">
+        <h1 class="product_page_title">Twój Koszyk</h1>
+        
+        <div id="cart-items">
+            </div>
+
+        <div class="cart_summary">
+            <h2>Suma: <span id="cart-total">0.00</span> PLN</h2>
+            <button class="button" onclick="alert('Brak integracji z bankiem. Przelej kasę gołębiem pocztowym!')">Zamawiam i płacę</button>
+        </div>
+    </section>
+    <section class="cart_page_data_label">
+        <div class="cart_page_data">
+        <label for="E-mail">E-mail:</label>
+        <input type="text" id="email" required placeholder="przykład@gmail.com">
+        </div>
+
+        <div class="cart_page_data">
+        <label for="Phone">Telefon:</label>
+        <input type="text" id="phone" required placeholder="000-000-000">
+        </div>
+
+        <div class="cart_page_data">
+        <label for="Adress">Adres:</label>
+        <input type="text" id="adress" required placeholder="Ulica 12/345">
+        </div>
+
+        <div class="cart_page_data">
+        <label for="Kod pocztowy">Kod pocztowy:</label>
+        <input type="text" id="postcode" required placeholder="12-345">
+        </div>
+
+        <div class="cart_page_data">
+        <label for="Kod pocztowy">Twoje uwagi:</label>
+        <textarea rows="4" type="text" id="comments" required placeholder="Co mamy uwzględnić?"></textarea>
+        </div>
+
+
+
+        <div class="product_page_grafika">
+            <img src="assets/D_LOGO.png" alt="box" class="grafika">
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
