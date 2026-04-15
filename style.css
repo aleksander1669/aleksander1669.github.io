@@ -128,6 +128,7 @@ footer {
     cursor: pointer;
     font-family: font2;
     box-shadow: 0px 0px 10px black;
+    border: 0px solid black;
 }
 .button:hover {
     background-color: chocolate;
