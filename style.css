@@ -44,7 +44,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
     box-shadow: 0px 0px 20px chocolate;
@@ -157,6 +157,7 @@ footer {
     margin: 40px auto;
     padding: 60px 40px;
     box-shadow: 0px 0px 10px chocolate;
+    max-width: 60%;
 }
 .product_page_title {
     text-align: center;
@@ -185,16 +186,6 @@ footer {
 .product_page_label {
     margin: 10px;
     width: 100%;
-}
-.product_page_label input,
-.product_page_label textarea {
-    border-radius: 5px;
-    background-color: black;
-    color: white;
-    width: 100%;
-    border: 1px solid black;
-    padding: 8px 10px;
-    font-family: font2;
 }
 .product_page_box_wider {
     border-radius: 5px;
@@ -248,18 +239,6 @@ footer {
 .product_page ul {
     line-height: 1.5em;
 }
-.product_page_box_label_and_grafika {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.grafika {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    display: block;
-}
 
 
 /*        About us page          */
@@ -298,13 +277,15 @@ footer {
 
 /*  Koszyk */
 .cart_page {
-    background-color: rgb(99, 99, 99);
+    background-color: chocolate;
     color: black;
     border-radius: 20px;
     width: 80%;
     margin: 40px auto;
     padding: 40px;
     font-family: Arial, Helvetica, sans-serif;
+    font-family: font2;
+    max-width: 60%;
 }
 
 .cart_summary {
@@ -319,18 +300,19 @@ footer {
     font-size: 2.5em;
     margin-bottom: 20px;
 }
-.cart_page_data_label {
-    background-color: rgb(99, 99, 99);
-    color: black;
-    border-radius: 20px;
-    width: 80%;
-    margin: 40px auto;
-    padding: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.cart_page_data{
+.cart_page_data {
         text-align: left;
     margin-top: 40px;
     padding-top: 20px;
     border-top: 5px solid black;
+}
+.Input {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-family: font2;
+    margin-top: 10px;
+}
+.cart_icon_img {
+    max-width: 75px;
 }
