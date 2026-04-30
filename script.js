@@ -73,14 +73,14 @@ function displayCart() {
                 <h3>${item.name}</h3>
                 <p>Cena za sztukę: ${item.price} PLN</p>
                 <p>
-                    Ilość: 
-                    <button onclick="changeQuantity('${item.id}', -1)" style="padding: 5px 10px; cursor: pointer;">-</button>
+                    Ilość:
+                    <button class="add_button" onclick="changeQuantity('${item.id}', -1)">-</button>
                     <span style="font-weight: bold; margin: 0 10px;">${item.quantity}</span>
-                    <button onclick="changeQuantity('${item.id}', 1)" style="padding: 5px 10px; cursor: pointer;">+</button>
+                    <button class="add_button" onclick="changeQuantity('${item.id}', 1)">+</button>
                 </p>
                 <h4>Razem: ${itemTotal} PLN</h4>
                 <br>
-                <button onclick="removeFromCart('${item.id}')" style="background-color: red; color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer;">
+                <button class="remove_button" onclick="removeFromCart('${item.id}')">
                     Usuń produkt z koszyka
                 </button>
             </div>
