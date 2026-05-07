@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": "001",
+      "name": "BMW M5 Front Bumper Kit",
+      "price": 400.00,
+      "image": "assets/beemwe/BUMPER_1.png",
+      "shortDescription": "Kompletny zderzak przedni M-Pakiet / M5 Design do BMW E39. Idealny sposób na odświeżenie wyglądu Twojego auta i nadanie mu agresywnego, sportowego charakteru.",
+      "specs": [
+        "Przeznaczenie: BMW e39 Sedan / Touring (wersje po liftingu 2000-2003)",
+        "Materiał: Wysokiej jakości, elastyczne tworzywo PP (polipropylen)",
+        "Spasowanie: Montaż na fabryczne ślizgi i śruby",
+        "Stan: Fabrycznie nowy, zagruntowany"
+      ],
+      "pageLink": "product_1.html"
+    },
+    {
+      "id": "002",
+      "name": "Felgi BBS Styling 42",
+      "price": 3200.00,
+      "image": "assets/beemwe/BBS_1.png",
+      "shortDescription": "Felgi BBS Styling 42 to kultowe felgi bardzo rozpoznawalne w motoryzacyjnym środowisku. Cenione za wysoką jakość i niską wagę w porównaniu do innych felg przy czym zachowująć swoją niezawodną wytrzymałość.",
+      "specs": [
+        "Przeznaczenie: Pasuje do każdego samochodu po wybraniu odpowiedniej specyfikacji.",
+        "Materiał: Wysokiej jakości, kute aluminium. Trwałe i lekkie.",
+        "Spasowanie: Dobranie felgi po numerze VIN daje 100% gwarancji.",
+        "Stan: Fabrycznie nowy, z polerowanym rantem gotowy do montażu."
+      ],
+      "pageLink": "product_2.html"
+    }
+  ]
+}

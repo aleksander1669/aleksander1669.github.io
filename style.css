@@ -4,13 +4,11 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
-
 body, html {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
-
 @font-face{
     src: url(assets/font2.ttf);
     font-family: font2;
@@ -70,10 +68,22 @@ footer {
     box-shadow: 0px 0px 20px chocolate;
     margin-top: 10px;
 }
+.copyright {
+    font-size: 0.7em;
+    margin-left: 10px;
+    font-family: font;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*           Product tiles               */
+
 .product {
     background-color: rgb(99, 99, 99);
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: font2;
     border-radius: 20px;
     transition: background-color 0.25s;
     width: 70%;
@@ -104,11 +114,12 @@ footer {
     transform: scale(1.05);
 }
 .product p {
+    margin-top: 40px;
     margin-left: 300px;
     font-family: font2;
 }
 .product ul {
-    margin-left: 280px;
+    margin-left: 300px;
     font-family: font2;
 }
 .product_left {
@@ -133,15 +144,6 @@ footer {
 .button:hover {
     background-color: chocolate;
     color: black;
-}
-.copyright {
-    font-size: 0.7em;
-    margin-left: 10px;
-    font-family: font;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 100%;
 }
 
 
