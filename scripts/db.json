@@ -5,28 +5,30 @@
       "name": "BMW M5 Front Bumper Kit",
       "price": 400.00,
       "image": "assets/beemwe/BUMPER_1.png",
+      "gallery": ["assets/beemwe/BUMPER_1.png", "assets/beemwe/BUMPER_2.png", "assets/beemwe/BUMPER_3.png"],
       "shortDescription": "Kompletny zderzak przedni M-Pakiet / M5 Design do BMW E39. Idealny sposób na odświeżenie wyglądu Twojego auta i nadanie mu agresywnego, sportowego charakteru.",
+      "fullDescription": "Wizualny tuning, który sprawi, że zapomnisz o tym, że znowu musisz dolać oleju. Wygląd M5, koszty utrzymania 2.0d. Zderzak wykonany z wysokiej jakości tworzywa PP, które jest bardzo elastyczne i odporne na bliskie spotkania z krawężnikami pod supermarketem. Pasuje idealnie w oryginalne punkty montażowe, więc trytytki przydadzą się tylko zapobiegawczo.",
       "specs": [
-        "Przeznaczenie: BMW e39 Sedan / Touring (wersje po liftingu 2000-2003)",
-        "Materiał: Wysokiej jakości, elastyczne tworzywo PP (polipropylen)",
-        "Spasowanie: Montaż na fabryczne ślizgi i śruby",
-        "Stan: Fabrycznie nowy, zagruntowany"
-      ],
-      "pageLink": "product_1.html"
+        "<strong>Przeznaczenie</strong>: BMW e39 Sedan / Touring (2000-2003)",
+        "<strong>Materiał</strong>: Wysokiej jakości tworzywo PP",
+        "<strong>Stan</strong>: Fabrycznie nowy, zagruntowany",
+        "<strong>Montaż</strong>: Na fabryczne ślizgi"
+      ]
     },
     {
       "id": "002",
       "name": "Felgi BBS Styling 42",
       "price": 3200.00,
       "image": "assets/beemwe/BBS_1.png",
-      "shortDescription": "Felgi BBS Styling 42 to kultowe felgi bardzo rozpoznawalne w motoryzacyjnym środowisku. Cenione za wysoką jakość i niską wagę w porównaniu do innych felg przy czym zachowująć swoją niezawodną wytrzymałość.",
+      "gallery": ["assets/beemwe/BBS_1.png", "assets/beemwe/BBS_2.png", "assets/beemwe/BBS_3.png"],
+      "shortDescription": "Felgi BBS Styling 42 to kultowe felgi bardzo rozpoznawalne w motoryzacyjnym środowisku. Cenione za wysoką jakość i niską wagę przy zachowaniu niezawodnej wytrzymałości.",
+      "fullDescription": "Zasługujesz na felgi, które są czymś więcej niż tylko kawałkiem metalu trzymającym oponę. Przepiękny, wieloczęściowy design i polerowany na lustro rant dodają niesamowitej głębi. Wykonane z kutego aluminium, co sprawia, że są absurdalnie lekkie i wytrzymałe. Uważaj na krawężniki, bo każda rysa na nich boli bardziej niż utrata zniżek na OC.",
       "specs": [
-        "Przeznaczenie: Pasuje do każdego samochodu po wybraniu odpowiedniej specyfikacji.",
-        "Materiał: Wysokiej jakości, kute aluminium. Trwałe i lekkie.",
-        "Spasowanie: Dobranie felgi po numerze VIN daje 100% gwarancji.",
-        "Stan: Fabrycznie nowy, z polerowanym rantem gotowy do montażu."
-      ],
-      "pageLink": "product_2.html"
+        "<strong>Przeznaczenie</strong>: Uniwersalne (dobór po VIN)",
+        "<strong>Materiał</strong>: Kute aluminium",
+        "<strong>Średnica</strong>: 18 cali",
+        "<strong>Stan</strong>: Fabrycznie nowy, polerowany rant"
+      ]
     }
   ]
 }

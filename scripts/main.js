@@ -1,10 +1,7 @@
-import { fetchProducts } from './api.js';
-import { renderProducts } from './ui.js';
+import { Render } from './ui.js';
 
-async function startApp() {
-    const products = await fetchProducts();
-    
-    renderProducts(products); 
+async function Start() {
+    await Render(); 
 }
 
-startApp();
+Start();

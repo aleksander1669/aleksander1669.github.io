@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "api": "npx json-server --watch scripts/db.json --port 3000"
+  }
+}

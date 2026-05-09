@@ -1,48 +1,41 @@
-export function renderProducts(productsArray) {
-    const container = document.getElementById('products_container');
-    
-    if (!container) return; 
+import { Get_Api } from "./api.js"
+export async function Render(){
 
-    container.innerHTML = ''; 
+    const container = document.getElementById("products_container");
 
-    productsArray.forEach(product => {
-        
-        // NOWOŚĆ: Generujemy HTML dla listy specyfikacji
-        let specsHTML = '';
-        if (product.specs && product.specs.length > 0) {
-            specsHTML = '<ul>';
+    const data = await Get_Api();
+
+    if (data == "error"){
+        container.innerHTML = `
+        <section class="error">
+            <h2>Server is down...<br>Sorry for inconvenience, please try agian later</h2>
+    </section>
+    `
+    } else {
+        container.innerHTML = "";
+
+        data.forEach(product => {
+
+            let product_list = `<ul class="">`;
             product.specs.forEach(spec => {
-                // Wrzucamy każdą cechę w tag <li> (element listy)
-                specsHTML += `<li><strong>${spec.split(':')[0]}:</strong> ${spec.split(':')[1]}</li><br>`;
-            });
-            specsHTML += '</ul>';
-        }
+                product_list += `<li>${spec}</li>`
+            })
+            product_list += `</ul>`
+            
+            container.innerHTML += `
+                <br>
+                <section class="product">
+                    <a href="${product.pageLink}" class="product_title"><h2>${product.name}</h2></a>
 
-        const productHTML = `
-            <br>
-            <section class="product">
-                <a href="${product.pageLink}" class="product_title">
-                    <h2>${product.name}</h2>
-                </a>
+                    <div class="product_left">
+                        <a href="${product.pageLink}"><img class="product_img" alt="Zdjęcie produktu" src="${product.image}"></a>
+                        <h2 class="price">${product.price.toFixed(2)} PLN</h2>
+                        <a href="${product.pageLink}"><button class="button">Kup</button></a>
+                    </div>
 
-                <div class="product_left">
-                    <a href="${product.pageLink}">
-                        <img class="product_img" alt="Zdjęcie produktu" src="${product.image}">
-                    </a>
-                    <h2 class="price">${product.price.toFixed(2)} PLN</h2>
-                    <a href="${product.pageLink}">
-                        <button class="button">Kup</button>
-                    </a>
-                </div>
-
-                <p>
-                    <strong>Specyfikacja produktu:</strong><br><br>
-                    ${product.shortDescription}
-                </p>
-                ${specsHTML} 
-            </section>
-        `;
-        
-        container.innerHTML += productHTML;
-    });
+                    <div class="product_right"><p><strong>Specyfikacja produktu:</strong><br><br>${product.shortDescription}</p>${product_list}</div>
+                </section>
+            `;
+        });
+    }
 }
