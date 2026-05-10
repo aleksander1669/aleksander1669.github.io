@@ -23,14 +23,13 @@ export async function Render(){
             product_list += `</ul>`
             
             container.innerHTML += `
-                <br>
                 <section class="product">
-                    <a href="${product.pageLink}" class="product_title"><h2>${product.name}</h2></a>
+                    <a href="product.html?id=${product.id}" class="product_title"><h2>${product.name}</h2></a>
 
                     <div class="product_left">
-                        <a href="${product.pageLink}"><img class="product_img" alt="Zdjęcie produktu" src="${product.image}"></a>
+                        <a href="product.html?id=${product.id}"><img class="product_img" alt="Zdjęcie produktu" src="${product.image}"></a>
                         <h2 class="price">${product.price.toFixed(2)} PLN</h2>
-                        <a href="${product.pageLink}"><button class="button">Kup</button></a>
+                        <a href="product.html?id=${product.id}"><button>Kup</button></a>
                     </div>
 
                     <div class="product_right"><p><strong>Specyfikacja produktu:</strong><br><br>${product.shortDescription}</p>${product_list}</div>

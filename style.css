@@ -29,13 +29,6 @@ body, html {
     height: auto;
     margin: 10px 40px;
 }
-.logo_bottom {
-    font-family: font;
-    font-size: 3em;
-    color: black;
-    text-align: center;
-    text-shadow: 3px 3px 5px;
-}
 header {
     background-color: chocolate;
     padding: 10px 20px;
@@ -50,13 +43,6 @@ header {
 body {
     background-color: black;
 }
-.link {
-    color: black;
-    font-size: 1.25em;
-    text-align: center;
-    display: block;
-    font-family: font2;
-}
 footer {
     background-color: chocolate;
     padding: 10px 10px;
@@ -67,6 +53,20 @@ footer {
     width: 100%;
     box-shadow: 0px 0px 20px chocolate;
     margin-top: 10px;
+}
+footer h1 {
+    font-family: font;
+    font-size: 3em;
+    color: black;
+    text-align: center;
+    text-shadow: 3px 3px 5px;
+}
+.link {
+    color: black;
+    font-size: 1.25em;
+    text-align: center;
+    display: block;
+    font-family: font2;
 }
 .copyright {
     font-size: 0.7em;
@@ -80,38 +80,17 @@ footer {
 
 /*           Product tiles               */
 
-.error {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(99, 99, 99);
-    width: 90%;
-    max-width: 1000px;
-    margin: 50px auto;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px rgb(99, 99, 99);
-    color: black;
-    padding: 100px;
-}
-.error h2 {
-    font-family: font;
-    font-size: 3em;
-    margin: 0;
-    font-size: clamp(1.5rem, 5vw, 3rem);
-}
 .product {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     gap: 30px;
     background-color: rgb(99, 99, 99);
     color: black;
     font-family: font2;
     border-radius: 20px;
     transition: background-color 0.25s;
-    width: 70%;
+    width: 80%;
     overflow: hidden;
     padding: 30px;
     margin: 40px auto;
@@ -143,17 +122,19 @@ footer {
     font-size: 1.2em;
 }
 .product ul {
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-family: font2;
-    margin-left: 200px;
 }
 .product_left {
     text-align: center;
 }
+.product_right {
+    flex: 1;
+}
 .price {
     font-family: font2;
 }
-.button {
+.product button {
     background-color: black;
     color: chocolate;
     transition: background-color 0.25s;
@@ -164,14 +145,48 @@ footer {
     box-shadow: 0px 0px 10px black;
     border: 0px solid black;
 }
-.button:hover {
+.product button:hover {
     background-color: chocolate;
     color: black;
 }
-
+.error {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(99, 99, 99);
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(99, 99, 99);
+    color: black;
+    padding: 100px;
+}
+.error h2 {
+    font-family: font;
+    font-size: 3em;
+    margin: 0;
+    font-size: clamp(1.5rem, 5vw, 3rem);
+}
 
 /*         Product page            */
 
+.loading {
+    background-color: rgb(99, 99, 99);
+    text-align: center;
+    width: 60%;
+    margin: auto auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(99, 99, 99);    
+}
+.loading h1 {
+    font-family: font;
+    font-size: 2em;
+    padding: 100px;
+}
 
 .product_page {
     background-color: chocolate;
@@ -184,14 +199,11 @@ footer {
     box-shadow: 0px 0px 10px chocolate;
     max-width: 60%;
 }
-.product_page_title {
-    text-align: center;
-    padding: 30px;
-}
 .product_page p {
     margin-top: 50px;
     padding-top: 20px;
     line-height: 1.5em;
+    font-size: 1.3em;
 }
 .product_page_display{
     display: block;
@@ -200,11 +212,17 @@ footer {
     box-shadow: 0px 0px 10px;
     border-radius: 10px;
 }
-.product_page h2 {
+.opis {
     text-align: center;
     font-family: font;
     font-size: 3em;
     padding-top: 50px;
+}
+.product_page_title {
+    text-align: center;
+    padding: 30px;
+    font-family: font2;
+    font-size: 2em;
 }
 .buy_button {
     color: chocolate;
@@ -233,6 +251,7 @@ footer {
 }
 .product_page ul {
     line-height: 1.5em;
+    font-size: 1.3em
 }
 .main_product_img {
     width: 400px;
