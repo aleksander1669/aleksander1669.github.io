@@ -2,43 +2,223 @@
   "products": [
     {
       "id": "001",
-      "name": "BMW M5 Front Bumper Kit",
-      "price": 400.00,
-      "image": "assets/beemwe/BUMPER_1.png",
-      "displayImage": "assets/beemwe/bmw_m5.jpg",
-      "gallery": [
-        "assets/beemwe/BUMPER_1.png", 
-        "assets/beemwe/BUMPER_2.png", 
-        "assets/beemwe/BUMPER_3.png"
-      ],
-      "shortDescription": "Kompletny zderzak przedni M-Pakiet / M5 Design do BMW E39. Idealny sposób na odświeżenie wyglądu Twojego auta i nadanie mu agresywnego, sportowego charakteru.",
-      "fullDescription": "Wizualny tuning, który sprawi, że zapomnisz o tym, że znowu musisz dolać oleju. Wygląd M5, koszty utrzymania 2.0d (no prawie). Nie czekaj, aż słońce wypali Twój seryjny plastik do koloru siwego! Nadaj swojej 'beemie' agresywny wygląd M5, o którym marzyłeś od czasów Need for Speed. Zderzak z PP – elastyczny jak Twoje podejście do interwałów wymiany oleju i odporny na wszystko, prócz krawężników pod marketem. Jedyny taki, zobacz! Nasz zderzak to nie tylko kwestia wyglądu, to przede wszystkim jakość, która idzie w parze z prostotą montażu. Wiemy, że Twój czas jest cenny, dlatego oferujemy produkt gotowy do działania.",
-      "specs": [
-        "Przeznaczenie: BMW e39 Sedan / Touring (wersje po liftingu 2000-2003)",
-        "Materiał: Wysokiej jakości, elastyczne tworzywo PP (polipropylen) – dokładnie z takiego samego materiału wykonane są oryginalne zderzaki (to nie jest kruchy, pękający laminat!).",
-        "Spasowanie: Zderzak montowany jest na fabryczne ślizgi i śruby, nie wymaga rzeźbienia.",
-        "Stan: Fabrycznie nowy, przygotowany do lakierowania (zagruntowany)."
-      ]
+      "name": "Zderzak przedni M-Pakiet BMW E39",
+      "price": 650.00,
+      "image": "https://placehold.co/250x250?text=Zderzak",
+      "displayImage": "https://placehold.co/400x400?text=Zderzak",
+      "gallery": ["https://placehold.co/400x400?text=Zderzak"],
+      "shortDescription": "Kompletny zderzak przedni w stylistyce M-Pakiet przeznaczony do BMW E39.",
+      "fullDescription": "Wysokiej jakości zamiennik wykonany z polipropylenu (PP), materiału o elastyczności i trwałości zbliżonej do oryginalnych części. Zderzak jest zagruntowany i gotowy do lakierowania. Zestaw zawiera kratki, listwy oraz ramki halogenów. Idealne rozwiązanie do odświeżenia wyglądu pojazdu lub naprawy powypadkowej.",
+      "specs": ["Przeznaczenie: BMW E39 (1995-2003)", "Materiał: Tworzywo PP", "Stan: Fabrycznie nowy, zagruntowany", "Producent: Zamiennik wysokiej jakości"]
     },
     {
       "id": "002",
-      "name": "Felgi BBS Styling 42",
+      "name": "Felgi aluminiowe BBS Styling 42 18\"",
       "price": 3200.00,
-      "image": "assets/beemwe/BBS_1.png",
-      "displayImage": "assets/beemwe/BBS_4.png",
-      "gallery": [
-        "assets/beemwe/BBS_1.png", 
-        "assets/beemwe/BBS_2.png", 
-        "assets/beemwe/BBS_3.png"
-      ],
-      "shortDescription": "Felgi BBS Syling 42 to wysokiej jakiości felgi wielo częściowe. Idealny sposób na odświeżenie wyglądu Twojego auta i nadanie mu agresywnego, sportowego charakteru. BBS to wiodący producent obręczy ze stopów lekkich, które charakteryzuje wysoka wytrzymałość oraz niepowtarzalne wzornictwo. Flagowe modele obręczy niemieckiego producenta są rozpoznawalne na całym świecie, a ich właściciele z dumą prezentują swoje samochody na wielu imprezach motoryzacyjnych i nie tylko. W skrócie klasa sama w sobie.",
-      "fullDescription": "Zasługujesz na felgi, które są czymś więcej niż tylko kawałkiem metalu. Te nowe felgi w kultowym wzorze mesh to idealne połączenie klasycznego designu, który zdefiniował najlepsze ery motoryzacji, z nowoczesną technologią i niezawodnością. Przepiękny, polerowany na lustro rant dodaje im niesamowitej głębi i luksusowego sznytu, przyciągając wzrok na każdym zlocie i podczas codziennej jazdy. Klasyczny centralny kołpaczek z dbałością o najmniejsze detale to hołd dla motoryzacyjnej tradycji, podkreślający Twój wyrafinowany gust – to po prostu prawdziwa biżuteria dla Twojego auta. Wykonane z najwyższej jakości kutego aluminium, są niezwykle trwałe i odporne na uszkodzenia, a jednocześnie piórkowo lekkie. Taka konstrukcja przekłada się na świetną dynamikę prowadzenia i najwyższy komfort. Otrzymujesz produkt fabrycznie nowy, całkowicie bezkompromisowy i od razu gotowy do montażu.",
-      "specs": [
-        "Przeznaczenie: Pasuje do każdego samochodu po wybraniu odpowiedznich specyfikacji felgi. Zachęcamy do dobierania felg przez numer WIN.",
-        "Materiał: Wysokiej jakości, kute aluminium. Trwałe i lekkie.",
-        "Spasowanie: Dobranie felgi po numerze WIN daje 100% gwarancję dobrego spasowania.",
-        "Stan: Fabrycznie nowy, z polerowanym rantem gotowy do montażu."
-      ]
+      "image": "https://placehold.co/250x250?text=Felgi+BBS",
+      "displayImage": "https://placehold.co/400x400?text=Felgi+BBS",
+      "gallery": ["https://placehold.co/400x400?text=Felgi+BBS"],
+      "shortDescription": "Oryginalne, dwuczęściowe felgi aluminiowe BBS o średnicy 18 cali.",
+      "fullDescription": "Klasyczny, ponadczasowy wzór typu mesh (szprychowy), który doskonale komponuje się z linią samochodów z przełomu lat 90. i 00. Felgi zostały poddane profesjonalnej renowacji – rotory polakierowane na nowo, ranty wypolerowane na wysoki połysk. Gwarantują doskonałe właściwości jezdne dzięki obniżonej masie nieresorowanej.",
+      "specs": ["Średnica: 18 cali", "Rozstaw śrub: 5x120", "Szerokość: 8J", "Otwór centrujący: 74.1 mm"]
+    },
+    {
+      "id": "003",
+      "name": "Reflektory przednie Xenon Hella E39",
+      "price": 1850.00,
+      "image": "https://placehold.co/250x250?text=Reflektory",
+      "displayImage": "https://placehold.co/400x400?text=Reflektory",
+      "gallery": ["https://placehold.co/400x400?text=Reflektory"],
+      "shortDescription": "Komplet oryginalnych reflektorów ksenonowych po liftingu z ringami (Angel Eyes).",
+      "fullDescription": "Fabrycznie nowe reflektory przednie renomowanej marki Hella. Wyposażone w zintegrowane światła pozycyjne w kształcie ringów oraz soczewki przystosowane do żarników D2S. Znacznie poprawiają widoczność w nocy i odświeżają front pojazdu. Wymagają posiadania instalacji ksenonowej w pojeździe.",
+      "specs": ["Technologia: Xenon (D2S)", "Homologacja: ECE (europejska)", "Strona zabudowy: Lewa + Prawa", "Producent: Hella"]
+    },
+    {
+      "id": "004",
+      "name": "Zawieszenie gwintowane KW Variant 1",
+      "price": 4500.00,
+      "image": "https://placehold.co/250x250?text=Zawieszenie",
+      "displayImage": "https://placehold.co/400x400?text=Zawieszenie",
+      "gallery": ["https://placehold.co/400x400?text=Zawieszenie"],
+      "shortDescription": "Wysokiej klasy zawieszenie z regulacją wysokości od KW Suspensions.",
+      "fullDescription": "Zawieszenie gwintowane KW Variant 1 INOX to idealny kompromis pomiędzy sportowym prowadzeniem a codziennym komfortem użytkowania. Obudowy amortyzatorów wykonane są ze stali nierdzewnej, co gwarantuje odporność na korozję w każdych warunkach atmosferycznych. Pozwala na płynną regulację obniżenia.",
+      "specs": ["Regulacja obniżenia (Przód): 35-65 mm", "Regulacja obniżenia (Tył): 30-60 mm", "Materiał: Stal nierdzewna INOX", "TUV: Posiada certyfikat TUV"]
+    },
+    {
+      "id": "005",
+      "name": "Tarcze hamulcowe wentylowane Brembo (Przód)",
+      "price": 420.00,
+      "image": "https://placehold.co/250x250?text=Tarcze+Hamulcowe",
+      "displayImage": "https://placehold.co/400x400?text=Tarcze+Hamulcowe",
+      "gallery": ["https://placehold.co/400x400?text=Tarcze+Hamulcowe"],
+      "shortDescription": "Wentylowane tarcze hamulcowe wysokowęglowe na przednią oś pojazdu.",
+      "fullDescription": "Tarcze hamulcowe Brembo z linii High Carbon charakteryzują się optymalnym współczynnikiem tłumienia drgań i odpornością na odkształcenia termiczne. Powłoka UV zapewnia estetyczny wygląd piasty przez długi czas i chroni przed korozją. Oferta dotyczy kompletu (2 sztuk) na przednią oś.",
+      "specs": ["Typ tarczy: Wentylowana, pokrywana (UV)", "Średnica: 296 mm", "Grubość: 22 mm", "Producent: Brembo"]
+    },
+    {
+      "id": "006",
+      "name": "Klocki hamulcowe ceramiczne ATE Ceramic",
+      "price": 280.00,
+      "image": "https://placehold.co/250x250?text=Klocki+ATE",
+      "displayImage": "https://placehold.co/400x400?text=Klocki+ATE",
+      "gallery": ["https://placehold.co/400x400?text=Klocki+ATE"],
+      "shortDescription": "Niskopylące klocki hamulcowe redukujące brudzenie felg.",
+      "fullDescription": "Innowacyjna mieszanka cierna w klockach ATE Ceramic sprawia, że generują one znacznie mniej pyłu w porównaniu do standardowych klocków. Zapewniają doskonałą skuteczność hamowania, cichą pracę i przedłużają żywotność tarcz hamulcowych. Idealne połączenie dla dbających o estetykę kół.",
+      "specs": ["Oś: Przednia", "System hamulcowy: ATE", "Cechy: Niskopylące (Ceramiczne)", "Styk ostrzegawczy: Przygotowane pod czujnik zużycia"]
+    },
+    {
+      "id": "007",
+      "name": "Kierownica sportowa skórzana M-Pakiet",
+      "price": 1200.00,
+      "image": "https://placehold.co/250x250?text=Kierownica",
+      "displayImage": "https://placehold.co/400x400?text=Kierownica",
+      "gallery": ["https://placehold.co/400x400?text=Kierownica"],
+      "shortDescription": "Wielofunkcyjna kierownica trójramienna obszyta nową skórą Nappa.",
+      "fullDescription": "Oryginalna kierownica poddana kompleksowej renowacji. Obręcz została pogrubiona i obszyta wysokogatunkową skórą naturalną (gładka Nappa na dole i górze, perforowana na bokach). Wyposażona w przyciski multifunkcji pozwalające na sterowanie radiem i tempomatem.",
+      "specs": ["Materiał: Skóra naturalna Nappa / Perforowana", "Multifunkcja: Tak", "Poduszka powietrzna (Airbag): Brak w zestawie (przełożenie z oryginału)", "Szwy: Trójkolorowe (M-Power)"]
+    },
+    {
+      "id": "008",
+      "name": "Komplet cewek zapłonowych Bosch (6 sztuk)",
+      "price": 540.00,
+      "image": "https://placehold.co/250x250?text=Cewki+Zaplonowe",
+      "displayImage": "https://placehold.co/400x400?text=Cewki+Zaplonowe",
+      "gallery": ["https://placehold.co/400x400?text=Cewki+Zaplonowe"],
+      "shortDescription": "Zestaw oryginalnych cewek zapłonowych do silników rzędowych.",
+      "fullDescription": "Wysokiej jakości cewki zapłonowe firmy Bosch gwarantują pewny zapłon w każdych warunkach pracy silnika. Wymiana kompletu zapobiega problemom z nierówną pracą silnika (wypadanie zapłonów), zwiększonym spalaniem i utratą mocy. Część zgodna ze specyfikacją pierwszego montażu (OEM).",
+      "specs": ["Ilość w zestawie: 6 sztuk", "Napięcie: 12V", "Producent: Bosch", "Gwarancja: 24 miesiące"]
+    },
+    {
+      "id": "009",
+      "name": "Zestaw sprzęgła z kołem dwumasowym LuK",
+      "price": 2100.00,
+      "image": "https://placehold.co/250x250?text=Sprzeglo",
+      "displayImage": "https://placehold.co/400x400?text=Sprzeglo",
+      "gallery": ["https://placehold.co/400x400?text=Sprzeglo"],
+      "shortDescription": "Kompletny układ przeniesienia napędu: tarcza, docisk, łożysko i koło dwumasowe.",
+      "fullDescription": "Zestaw renomowanej firmy LuK, dostawcy części na pierwszy montaż dla wielu producentów samochodów. Koło dwumasowe skutecznie tłumi drgania skrętne silnika, poprawiając komfort jazdy i chroniąc skrzynię biegów. Zestaw zapewnia płynną zmianę biegów i długą żywotność przy odpowiedniej eksploatacji.",
+      "specs": ["Elementy zestawu: Tarcza, docisk, łożysko oporowe, koło dwumasowe (DKZ)", "Średnica tarczy: 240 mm", "Producent: LuK (Schaeffler Group)", "Przeznaczenie: Manualna skrzynia biegów"]
+    },
+    {
+      "id": "010",
+      "name": "Filtr powietrza sportowy K&N (Wkładka)",
+      "price": 260.00,
+      "image": "https://placehold.co/250x250?text=Filtr+KN",
+      "displayImage": "https://placehold.co/400x400?text=Filtr+KN",
+      "gallery": ["https://placehold.co/400x400?text=Filtr+KN"],
+      "shortDescription": "Bawelniany filtr powietrza wielokrotnego użytku, montowany w fabrycznej obudowie.",
+      "fullDescription": "Sportowa wkładka filtrująca K&N zaprojektowana w celu zwiększenia przepływu powietrza do silnika, co może skutkować delikatną poprawą reakcji na gaz. Filtr jest zmywalny i może być używany przez cały okres eksploatacji pojazdu, po okresowym czyszczeniu i nasączeniu dedykowanym olejkiem.",
+      "specs": ["Materiał filtrujący: Bawełna nasączona olejkiem", "Kształt: Panelowy (zgodny z OEM)", "Gwarancja: Milion mil (producenta)", "Konserwacja: Wymaga dedykowanych zestawów czyszczących"]
+    },
+    {
+      "id": "011",
+      "name": "Zestaw wahaczy osi przedniej Lemförder",
+      "price": 1450.00,
+      "image": "https://placehold.co/250x250?text=Wahacze",
+      "displayImage": "https://placehold.co/400x400?text=Wahacze",
+      "gallery": ["https://placehold.co/400x400?text=Wahacze"],
+      "shortDescription": "Komplet wahaczy aluminiowych, łączników stabilizatora i końcówek drążków.",
+      "fullDescription": "Produkty marki Lemförder to synonim bezkompromisowej jakości w elementach układu kierowniczego i zawieszenia. Zestaw pozwala na kompleksową wymianę wypracowanych elementów osi przedniej, przywracając fabryczną precyzję prowadzenia pojazdu i eliminując wszelkie stuki. Zastosowanie aluminium obniża masę podzespołów.",
+      "specs": ["Elementy: 4 wahacze, 2 końcówki drążków, 2 łączniki", "Materiał: Aluminium / Stal kuta", "Oś: Przednia", "Producent: Lemförder"]
+    },
+    {
+      "id": "012",
+      "name": "Pompa cieczy chłodzącej Pierburg",
+      "price": 310.00,
+      "image": "https://placehold.co/250x250?text=Pompa+Wody",
+      "displayImage": "https://placehold.co/400x400?text=Pompa+Wody",
+      "gallery": ["https://placehold.co/400x400?text=Pompa+Wody"],
+      "shortDescription": "Wysokowydajna pompa wody z metalowym wirnikiem.",
+      "fullDescription": "Kluczowy element układu chłodzenia odpowiadający za obieg chłodziwa w silniku. Wersja wyposażona we wzmocniony, metalowy wirnik, który eliminuje ryzyko pęknięcia łopatek znane z pomp z wirnikami plastikowymi. W zestawie znajduje się nowa uszczelka montażowa.",
+      "specs": ["Rodzaj wirnika: Metalowy", "Tryb pracy: Mechaniczna", "Uszczelnienie w zestawie: Tak", "Producent: Pierburg"]
+    },
+    {
+      "id": "013",
+      "name": "Przepływomierz masowy powietrza VDO",
+      "price": 850.00,
+      "image": "https://placehold.co/250x250?text=Przeplywomierz",
+      "displayImage": "https://placehold.co/400x400?text=Przeplywomierz",
+      "gallery": ["https://placehold.co/400x400?text=Przeplywomierz"],
+      "shortDescription": "Oryginalny czujnik masy powietrza (MAF) Continental/VDO.",
+      "fullDescription": "Precyzyjny podzespół układu dolotowego mierzacy ilość powietrza dostającego się do silnika. Dokładne pomiary są niezbędne dla prawidłowego doboru dawki paliwa. Usterka tego elementu najczęściej objawia się spadkiem mocy i nierówną pracą silnika. Część w pełni zamienna z wkładem oryginalnym.",
+      "specs": ["Typ czujnika: Przepływomierz masowy z gorącym filtrem", "Ilość PIN: 3", "Producent: VDO (Continental)", "Stan: Fabrycznie nowy"]
+    },
+    {
+      "id": "014",
+      "name": "Układ wydechowy końcowy Supersprint",
+      "price": 2800.00,
+      "image": "https://placehold.co/250x250?text=Wydech",
+      "displayImage": "https://placehold.co/400x400?text=Wydech",
+      "gallery": ["https://placehold.co/400x400?text=Wydech"],
+      "shortDescription": "Sportowy tłumik końcowy ze stali nierdzewnej dedykowany do modeli rzędowych.",
+      "fullDescription": "Zaprojektowany, aby zoptymalizować przepływ spalin i uwolnić basowe, acz nie męczące brzmienie jednostki napędowej. Tłumik wykonany jest w 100% z kwasoodpornej stali nierdzewnej, co zapewnia mu dożywotnią trwałość. Posiada dwie polerowane końcówki o średnicy 76 mm.",
+      "specs": ["Materiał: Stal nierdzewna AISI 304", "Końcówki: 2 x 76 mm, ścięte, polerowane", "Homologacja: Posiada dopuszczenie do ruchu (TUV/ABE)", "Montaż: P&P (Plug and Play)"]
+    },
+    {
+      "id": "015",
+      "name": "Zderzak tylny M-Pakiet BMW E39 Sedan",
+      "price": 700.00,
+      "image": "https://placehold.co/250x250?text=Zderzak+Tyl",
+      "displayImage": "https://placehold.co/400x400?text=Zderzak+Tyl",
+      "gallery": ["https://placehold.co/400x400?text=Zderzak+Tyl"],
+      "shortDescription": "Kompletny zderzak tylny w stylizacji sportowej z dyfuzorem.",
+      "fullDescription": "Zderzak tylny poprawiający aerodynamikę i optycznie poszerzający tył pojazdu. Wykonany z elastycznego materiału (PP). W zestawie znajduje się dolny dyfuzor w kolorze czarnym z wycięciem na podwójną końcówkę wydechu oraz listwy ochronne PDC (przygotowane pod czujniki parkowania).",
+      "specs": ["Przeznaczenie: BMW E39 Sedan", "Czujniki parkowania (PDC): Tak, otwory fabryczne", "Wycięcie na wydech: Z lewej strony (podwójne)", "Materiał: Tworzywo PP"]
+    },
+    {
+      "id": "016",
+      "name": "Lusterka boczne fotochromatyczne (komplet)",
+      "price": 950.00,
+      "image": "https://placehold.co/250x250?text=Lusterka",
+      "displayImage": "https://placehold.co/400x400?text=Lusterka",
+      "gallery": ["https://placehold.co/400x400?text=Lusterka"],
+      "shortDescription": "Komplet elektrycznie składanych, podgrzewanych lusterek bocznych.",
+      "fullDescription": "Oryginalne lusterka wyposażone w zaawansowane wkłady fotochromatyczne, które automatycznie przyciemniają się, gdy z tyłu pada mocne światło reflektorów innych pojazdów. Lusterka są dodatkowo podgrzewane, co zapobiega parowaniu i zamarzaniu, oraz posiadają funkcję elektrycznego składania z pilota.",
+      "specs": ["Funkcje: Elektryczne składanie, podgrzewanie, fotochrom", "Szkło: Asferyczne (lewe i prawe)", "Podłączenie: Wtyczka 3-PIN", "Stan: Używane, stan bardzo dobry"]
+    },
+    {
+      "id": "017",
+      "name": "Zestaw rozrządu z pompą wody INA",
+      "price": 680.00,
+      "image": "https://placehold.co/250x250?text=Rozrzad",
+      "displayImage": "https://placehold.co/400x400?text=Rozrzad",
+      "gallery": ["https://placehold.co/400x400?text=Rozrzad"],
+      "shortDescription": "Kompletny zestaw paska rozrządu, rolek, napinaczy oraz pompy wody.",
+      "fullDescription": "Zestaw naprawczy jednego z najważniejszych układów w silniku spalinowym. Części marki INA charakteryzują się najwyższą niezawodnością. Kompletna wymiana całego zestawu zapobiega zerwaniu paska, co mogłoby skutkować katastrofalną w skutkach awarią silnika (kolizja zaworów z tłokami).",
+      "specs": ["Elementy: Pasek zębaty, rolka napinająca, rolka prowadząca, pompa wody", "Producent: INA / Schaeffler", "Zalecany interwał wymiany: Co 80 000 km lub 5 lat"]
+    },
+    {
+      "id": "018",
+      "name": "Akumulator Bosch S5 100Ah 830A",
+      "price": 490.00,
+      "image": "https://placehold.co/250x250?text=Akumulator",
+      "displayImage": "https://placehold.co/400x400?text=Akumulator",
+      "gallery": ["https://placehold.co/400x400?text=Akumulator"],
+      "shortDescription": "Wysokiej pojemności akumulator rozruchowy w technologii srebrowej.",
+      "fullDescription": "Akumulator z linii Bosch S5 dedykowany do pojazdów z bogatym wyposażeniem elektronicznym. Technologia PowerFrame zapewnia wydłużoną żywotność, niezawodny rozruch w skrajnie niskich temperaturach oraz wysoką odporność na jazdę na krótkich dystansach w ruchu miejskim. W pełni bezobsługowy.",
+      "specs": ["Pojemność: 100 Ah", "Prąd rozruchu (EN): 830 A", "Polaryzacja: Prawy Plus (+)", "Wymiary: 353x175x190 mm"]
+    },
+    {
+      "id": "019",
+      "name": "Olej silnikowy Motul 8100 X-cess 5W40 (5L)",
+      "price": 185.00,
+      "image": "https://placehold.co/250x250?text=Olej+Motul",
+      "displayImage": "https://placehold.co/400x400?text=Olej+Motul",
+      "gallery": ["https://placehold.co/400x400?text=Olej+Motul"],
+      "shortDescription": "W 100% syntetyczny olej silnikowy do silników benzynowych i diesla.",
+      "fullDescription": "Wysokiej jakości olej syntetyczny francuskiej marki Motul. Zapewnia wybitną ochronę przeciwzużyciową, doskonałą płynność w niskich temperaturach ułatwiającą zimny start oraz stabilność filmu olejowego przy wysokich obciążeniach termicznych. Posiada oficjalne aprobaty wielu czołowych producentów samochodów.",
+      "specs": ["Klasa lepkości: SAE 5W-40", "Pojemność: 5 Litrów", "Baza olejowa: W 100% syntetyczny", "Aprobaty: LL-01, MB 229.5, VW 502 00"]
+    },
+    {
+      "id": "020",
+      "name": "Chłodnica silnika Nissens",
+      "price": 340.00,
+      "image": "https://placehold.co/250x250?text=Chlodnica",
+      "displayImage": "https://placehold.co/400x400?text=Chlodnica",
+      "gallery": ["https://placehold.co/400x400?text=Chlodnica"],
+      "shortDescription": "Aluminiowa chłodnica cieczy przystosowana do manualnej skrzyni biegów.",
+      "fullDescription": "Chłodnica cieczy duńskiej firmy Nissens, lidera w dziedzinie techniki cieplnej w motoryzacji. Zapewnia optymalną wydajność wymiany ciepła, chroniąc silnik przed przegrzaniem podczas jazdy w korkach oraz przy wyższych obciążeniach. Rdzeń lutowany mechanicznie gwarantuje doskonałą szczelność.",
+      "specs": ["Rdzeń: Aluminiowy", "Zbiorniki: Tworzywo sztuczne", "Typ skrzyni biegów: Manualna", "Klimatyzacja: Do pojazdów z klimatyzacją lub bez"]
     }
   ]
 }

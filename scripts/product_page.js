@@ -5,7 +5,7 @@ async function Render_Product() {
     const data = await Get_Api();
 
     if (data == "error") {
-        container.innerHTML = `<section class="loading"><h1>Server nie działa...<br>Spróbuj ponownie później</h1></section>`;
+        container.innerHTML = `<section class="loading"><h1>Serwer nie działa...<br>Spróbuj ponownie później</h1></section>`;
         return;
     }
 
@@ -22,7 +22,7 @@ async function Render_Product() {
     });
 
     container.innerHTML = `
-    <section class="product_page">
+    <section class="product_page fade-in">
         <h2 class="product_page_title">${product.name}</h2>
         
         <div class="product_page_image_box">
@@ -32,36 +32,43 @@ async function Render_Product() {
         </div>
         
         <div>
-            <button id="add_to_cart_btn" class="buy_button">Zamawiam</button>
+            <button id="add_to_cart_btn" class="buy_button">Dodaj do koszyka</button>
         </div>
 
-        <h2 class="opis">Opis Produktu:</h2>
-        <p>
-            ${product.shortDescription}
-            <br><br>
-            Specyfikacja produktu:
-        </p>
-        <ul>
-            ${specsHTML}
-        </ul>
+        <div class="accordion_container">
+            <button class="accordion_btn">Szybki podgląd</button>
+            <div class="accordion_content">
+                <p>${product.shortDescription}</p>
+            </div>
 
-        <img class="product_page_display" src="${product.displayImage}" alt="Zdjęcie na aucie">
+            <button class="accordion_btn">Specyfikacja techniczna</button>
+            <div class="accordion_content">
+                <ul>${specsHTML}</ul>
+            </div>
 
-        <p>${product.fullDescription}</p>
+            <button class="accordion_btn">Szczegółowy opis</button>
+            <div class="accordion_content">
+                <p>${product.fullDescription}</p>
+                <img class="product_page_display" src="${product.displayImage}" alt="Zdjęcie poglądowe" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;">
+            </div>
 
-        <ul>
-            <li>Błyskawiczna wysyłka: Zamówienia procesujemy w ciągu 24h. Korzystamy z zaufanych kurierów, którzy wiedzą, jak obchodzić się z gabarytami.</li>
-            <li>Bezpieczne pakowanie: Każda część podróżuje w dedykowanym, wzmocnionym kartonie. Ryzyko uszkodzeń w transporcie ograniczamy do minimum.</li>
-            <li>Pełne wsparcie: Masz pytania dotyczące montażu lub dopasowania? Nasz zespół chętnie pomoże Ci przejść przez proces instalacji.</li>
-            <li>Gwarancja dopasowania: Produkt jest uniwersalny lub dedykowany, nasi koneserzy zawsze doradzą!</li>
-        </ul>
+            <button class="accordion_btn">Dostawa i zwroty</button>
+            <div class="accordion_content">
+                <ul>
+                    <li>Błyskawiczna wysyłka: Zamówienia procesujemy w ciągu 24h.</li>
+                    <li>Bezpieczne pakowanie: Każda część podróżuje w dedykowanym kartonie.</li>
+                    <li>Pełne wsparcie: Masz pytania? Nasz zespół chętnie pomoże.</li>
+                    <li>Gwarancja dopasowania: Produkt zgodny z opisem i specyfikacją OEM.</li>
+                </ul>
+            </div>
+        </div>
     </section>
     `;
 
     document.getElementById("add_to_cart_btn").addEventListener("click", () => {
         let cart = JSON.parse(localStorage.getItem("alibaba_cart")) || [];
-
         const existing = cart.find(item => item.id === product.id);
+        
         if (existing) {
             existing.quantity += 1;
         } else {
@@ -73,7 +80,6 @@ async function Render_Product() {
                 quantity: 1
             });
         }
-
         localStorage.setItem("alibaba_cart", JSON.stringify(cart));
         window.location.href = "koszyk.html";
     });
@@ -94,6 +100,19 @@ async function Render_Product() {
             imgElement.src = product.gallery[currentImageIndex];
         });
     }
+
+    const acc = document.querySelectorAll(".accordion_btn");
+    acc.forEach(btn => {
+        btn.addEventListener("click", function() {
+            this.classList.toggle("active");
+            let content = this.nextElementSibling;
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null; 
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+    });
 }
 
 Render_Product();

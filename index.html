@@ -20,7 +20,46 @@
 
     <!------------------------------------------->
 
-    <div id="products_container"></div>
+<main class="main_content">
+        
+        <aside class="sidebar_filters">
+            <h3>Filtrowanie</h3>
+            
+            <div class="filter_group">
+                <label>Szukaj frazy:</label>
+                <input type="text" id="search_input" class="filter_input" placeholder="np. zderzak, felgi...">
+            </div>
+            
+            <div class="filter_group">
+                <label>Cena od (PLN):</label>
+                <input type="number" id="price_min" class="filter_input" placeholder="0">
+            </div>
+            
+            <div class="filter_group">
+                <label>Cena do (PLN):</label>
+                <input type="number" id="price_max" class="filter_input" placeholder="10000">
+            </div>
+            
+            <div class="filter_group">
+                <label>Sortuj:</label>
+                <select id="sort_select" class="filter_input">
+                    <option value="default">Domyślnie</option>
+                    <option value="price_asc">Cena: rosnąco</option>
+                    <option value="price_desc">Cena: malejąco</option>
+                    <option value="name_asc">Nazwa: A-Z</option>
+                </select>
+            </div>
+            
+            <button id="apply_filters" class="buy_button" style="width: 100%; margin: 20px 0 10px 0;">Filtruj produkty</button>
+            <button id="reset_filters" class="remove_button" style="width: 100%; font-size: 1.2em;">Wyczyść filtry</button>
+        </aside>
+
+        <div class="products_column">
+            <div id="products_container" class="products_grid"></div>
+            <div id="pagination_container" class="pagination"></div>
+        </div>
+        
+    </main>
     
     <!-- Gotowa formułka na dolną część strony -->
     <footer>
