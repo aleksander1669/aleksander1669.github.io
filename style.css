@@ -606,3 +606,73 @@ footer h1 {
         gap: 8px;
     }
 }
+
+/* ---- POWIADOMIENIA ---- */
+.toast_notification {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: chocolate;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1000;
+    right: 30px;
+    bottom: 30px;
+    font-size: 1.2em;
+    font-family: font2;
+    box-shadow: 0px 0px 15px black;
+    border: 2px solid black;
+}
+
+.toast_notification.show {
+    visibility: visible;
+    animation: slideInRight 0.5s, fadeOut 0.5s 2.5s;
+}
+
+@keyframes slideInRight {
+    from { right: -300px; opacity: 0; }
+    to { right: 30px; opacity: 1; }
+}
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+/* animacje */
+@keyframes fadeInPage {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+body {
+    animation: fadeInPage 0.8s ease-in-out;
+}
+
+@keyframes slideUp {
+    from { 
+        transform: translateY(40px); 
+        opacity: 0; 
+    }
+    to { 
+        transform: translateY(0); 
+        opacity: 1; 
+    }
+}
+.product {
+    animation: slideUp 0.6s ease-out forwards;
+}
+
+@keyframes pulseCart {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.15) rotate(5deg); filter: drop-shadow(0 0 10px chocolate); }
+    100% { transform: scale(1); }
+}
+.cart_link:hover .cart_icon_img {
+    animation: pulseCart 0.6s infinite;
+}
+
+.Input:focus {
+    transform: scale(1.02);
+    border-color: white;
+    box-shadow: 0px 0px 15px chocolate;
+}

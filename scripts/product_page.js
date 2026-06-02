@@ -14,7 +14,15 @@ async function Render_Product() {
 
     if (!productId) return;
     const product = data.find(item => item.id === productId);
-    if (!product) return;
+    if (!product) {
+        container.innerHTML = `
+        <section class="error fade-in">
+            <h2>Błąd 404: Nie znaleziono części</h2>
+            <p style="font-size: 1.5em; margin-top: 20px;">Taki produkt nie istnieje w naszym asortymencie. Prawdopodobnie rdza zjadła ten numer VIN.</p>
+            <a href="index.html" class="buy_button" style="width: 200px; margin-top: 30px;">Wróć na stronę główną</a>
+        </section>`;
+        return;
+    }
 
     let specsHTML = ``;
     product.specs.forEach(spec => {

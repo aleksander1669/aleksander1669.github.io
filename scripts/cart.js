@@ -56,7 +56,6 @@ if (cartContainer) {
         if (btn.classList.contains("delete_btn")) {
             cart.splice(index, 1);
         }
-
         else if (btn.classList.contains("minus_btn")) {
             if (cart[index].quantity > 1) {
                 cart[index].quantity -= 1;
@@ -64,11 +63,9 @@ if (cartContainer) {
                 cart.splice(index, 1);
             }
         }
-
         else if (btn.classList.contains("plus_btn")) {
             cart[index].quantity += 1;
         }
-
         else return;
 
         localStorage.setItem("alibaba_cart", JSON.stringify(cart));
@@ -77,3 +74,62 @@ if (cartContainer) {
 }
 
 Render_Cart();
+
+
+const orderButton = document.querySelector(".cart_summary .remove_button");
+
+if (orderButton) {
+    orderButton.removeAttribute("onclick");
+
+    orderButton.addEventListener("click", () => {
+        const cart = JSON.parse(localStorage.getItem("alibaba_cart")) || [];
+        const toast = document.getElementById("toast");
+
+        if (cart.length === 0) {
+            toast.innerText = "Błąd: Nie możesz złożyć pustego zamówienia!";
+            toast.style.backgroundColor = "darkred";
+            toast.style.color = "white";
+            toast.className = "toast_notification show";
+            setTimeout(() => { toast.className = toast.className.replace("show", ""); }, 3000);
+            return; 
+        }
+
+        const email = document.getElementById("email").value.trim();
+        const phone = document.getElementById("phone").value.trim();
+        const adress = document.getElementById("adress").value.trim();
+        const postcode = document.getElementById("postcode").value.trim();
+
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        const phoneRegex = /^[0-9\-\+]{9,15}$/; 
+        const postcodeRegex = /^[0-9]{2}-[0-9]{3}$/; 
+
+        let errors = [];
+
+        if (!emailRegex.test(email)) errors.push("Podaj poprawny adres e-mail.");
+        if (!phoneRegex.test(phone)) errors.push("Podaj poprawny numer telefonu.");
+        if (adress.length < 5) errors.push("Podaj pełny adres dostawy.");
+        if (!postcodeRegex.test(postcode)) errors.push("Podaj poprawny kod pocztowy (XX-XXX).");
+
+
+        if (errors.length > 0) {
+            toast.innerText = "Błąd: " + errors[0]; 
+            toast.style.backgroundColor = "darkred";
+            toast.style.color = "white";
+            toast.className = "toast_notification show";
+            
+            setTimeout(() => { toast.className = toast.className.replace("show", ""); }, 3000);
+            
+        } else {
+            toast.innerText = "Zamówienie w drodze!";
+            toast.style.backgroundColor = "green";
+            toast.style.color = "white";
+            toast.className = "toast_notification show";
+            
+            setTimeout(() => { 
+                toast.className = toast.className.replace("show", ""); 
+                localStorage.removeItem("alibaba_cart");
+                window.location.href = "index.html";
+            }, 3000);
+        }
+    });
+}
